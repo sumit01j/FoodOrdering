@@ -13,7 +13,7 @@ const FoodOrderingRouter = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={ <FoodOrderingNavBar />}>
+                <Route path='/' element={ <FoodOrderingNavBar/>}>
                     {/* child rout definitions */}
                     <Route path='/home' element={<Home/>} />
                     <Route path='/menu' element = { <Menu/> } />

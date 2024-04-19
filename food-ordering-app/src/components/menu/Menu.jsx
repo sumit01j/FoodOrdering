@@ -1,6 +1,14 @@
-const Menu = ()=>{
+import MenuCard from "./MenuCard"
+import menus from "./menu_data"
+ const Menu = ()=>{
 
-    return <h2>Menu Component</h2>
+    return (
+    <>
+    <div >   
+    <MenuCard menus={menus} />
+    </div>
+      </>
+    )
 }
 
 export default Menu
